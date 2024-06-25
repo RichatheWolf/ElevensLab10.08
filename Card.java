@@ -48,8 +48,8 @@ public class Card {
     *              are equal to those of the argument;
     *         false otherwise.
     */
-   public boolean matches(@NotNull Card Card1, @NotNull Card otherCard){
-      return Card1.rank.equals(otherCard.rank) && Card1.suit.equals(otherCard.suit) && Card1.pointValue == otherCard.pointValue;
+   public boolean matches(Card Card1, Card Card2){
+      return Card1.rank.equals(Card2.rank) && Card1.suit.equals(Card2.suit) && Card1.pointValue == Card2.pointValue;
    }
 
   
