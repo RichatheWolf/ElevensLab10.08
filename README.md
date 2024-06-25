@@ -1,0 +1,1 @@
+PMR: Writing this code was not to difficult, since only a few small things like constructors had to be added. The hardest part was probably the toString method of the Deck class, which had many variables to keep track of. 
